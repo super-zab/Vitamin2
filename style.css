@@ -1,0 +1,42 @@
+/* Q1: Change font to Comic Sans MS with fallbacks */
+html {
+  font-family: "Comic Sans MS", "Comic Sans", Arial, sans-serif;
+}
+
+/* Q2: Make headings use Papyrus font and purple color */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Papyrus;
+  color: purple;
+}
+
+/* Q3: Horizontal navigation bar */
+ul {
+  list-style-type: none;
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  padding: 16px;
+  margin: 0;
+}
+
+ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Q4: Hover effect on links */
+ul li a:hover {
+  background-color: #AAA;
+}
+
+/* Q5: Footer styling */
+footer {
+  background-color: #DDD;
+  color: #555;
+  text-align: center;
+  padding: 16px 0;
+}
